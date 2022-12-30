@@ -30,15 +30,32 @@
     </ul>
   </nav>
   <main>
-    <h1>Blog</h1>
-    <article>
-      <h2>20% off this weekend</h2>
-      <p>Come down to Restaurant Food & Drinks and your meal will be 20% off!</p>
-    </article>
-    <article>
-      <h2>Our new menu</h2>
-      <p>We've updated our menu with new dinners.</p>
-    </article>
+    <h1>Sign Up</h1>
+    <form>
+      <div>
+        <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" id="firstname" required>
+      </div>
+      <div>
+        <label for="lastname">Lastname</label>
+        <input type="text" name="lastname" id="lastname" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required minlength="6" maxlength="15">
+      </div>
+      <div>
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" name="confirm_password" id="confirm_password" required minlength="6" maxlength="15">
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </main>
   <footer>
     <p>Copyright Restaurant Food & Drinks</p>
